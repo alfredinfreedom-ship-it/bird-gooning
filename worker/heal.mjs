@@ -76,6 +76,22 @@ const CLADE_MAP = {
   'Alcedinidae':    { clade: 'Neoaves → Telluraves → Coraciiformes', note: 'Kingfishers. Diving fish-catchers with large heads and dagger bills.' },
   'Picidae':        { clade: 'Neoaves → Telluraves → Piciformes', note: 'Woodpeckers. Specialized for excavating wood; shock-absorbing skull protects the brain.' },
 
+  // Additional families (D-Z ingestion)
+  'Cardinalidae':   { clade: 'Neoaves → Telluraves → Passeriformes → Passerida', note: 'Cardinals, grosbeaks, buntings. Seed-cracking songbirds with sexually dimorphic plumage — males bright, females cryptic.' },
+  'Phalacrocoracidae': { clade: 'Neoaves → Aequorlitornithes → Suliformes', note: 'Cormorants. Diving fish-eaters that lack waterproof feathers — they spread wings to dry after diving.' },
+  'Podicipedidae':  { clade: 'Neoaves → Aequorlitornithes → Podicipediformes', note: 'Grebes. Diving waterbirds with lobed toes; phylogenetically close to flamingos despite appearances.' },
+  'Sturnidae':      { clade: 'Neoaves → Telluraves → Passeriformes → Passerida', note: 'Starlings and mynas. Old World passerines; European Starling is one of the most successful invasive species globally.' },
+  'Threskiornithidae': { clade: 'Neoaves → Aequorlitornithes → Pelecaniformes', note: 'Ibises and spoonbills. Wading birds with specialized curved or flattened bills for tactile foraging.' },
+  'Regulidae':      { clade: 'Neoaves → Telluraves → Passeriformes → Passerida', note: 'Kinglets. Tiny insectivorous songbirds with colorful crown patches; among the smallest passerines.' },
+  'Mimidae':        { clade: 'Neoaves → Telluraves → Passeriformes → Passerida', note: 'Mockingbirds, catbirds, thrashers. Renowned vocal mimics that can learn hundreds of song phrases.' },
+  'Laniidae':       { clade: 'Neoaves → Telluraves → Passeriformes → Corvida', note: 'Shrikes. "Butcher birds" that impale prey on thorns — predatory passerines with hooked bills.' },
+  'Gruidae':        { clade: 'Neoaves → Gruiformes', note: 'Cranes. Ancient wading birds with fossil record extending to the Eocene; elaborate dancing courtship displays.' },
+  'Pandionidae':    { clade: 'Neoaves → Telluraves → Accipitriformes', note: 'Ospreys. Fish-hunting raptors with reversible outer toes and oily, water-resistant plumage.' },
+  'Sittidae':       { clade: 'Neoaves → Telluraves → Passeriformes → Passerida', note: 'Nuthatches. Bark-foraging birds that uniquely descend tree trunks headfirst.' },
+  'Phasianidae':    { clade: 'Galloanserae → Galliformes', note: 'Pheasants, turkeys, grouse. Ground-dwelling Galliformes; Wild Turkey is among the largest Galloanserae in North America.' },
+  'Cuculidae':      { clade: 'Neoaves → Otidimorphae → Cuculiformes', note: 'Cuckoos. Ancient Neoaves lineage; many Old World species are brood parasites, though New World species raise their own young.' },
+  'Passeridae':     { clade: 'Neoaves → Telluraves → Passeriformes → Passerida', note: 'Old World sparrows. House Sparrow is a globally successful commensal species, thriving near human habitation.' },
+
   // Fallback
   '_default':       { clade: 'Neoaves (unresolved)', note: 'Placement within Neoaves requires further phylogenetic analysis.' },
 };
